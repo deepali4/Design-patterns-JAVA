@@ -1,5 +1,7 @@
 package Decorator;
 
+import java.util.Stack;
+
 public class PepperonDecorator extends Decorator {
 
     public PepperonDecorator(Pizza pizza) {
@@ -15,4 +17,6 @@ public class PepperonDecorator extends Decorator {
     public double getCost() {
         return decoratedPizza.getCost() + 50.0;
     }
+
+    Stack
 }

@@ -1,6 +1,8 @@
 package Decorator;
 
-public class CheeseDecorator extends Decorator {
+
+
+public class CheeseDecorator implements Cloneable Decorator {
 
     public CheeseDecorator(Pizza pizza){
         super(pizza);
